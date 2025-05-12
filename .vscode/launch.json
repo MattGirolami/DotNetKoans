@@ -2,6 +2,25 @@
     "version": "0.2.0",
     "configurations": [
         {
+        "name": ".NET Core Launch (console)",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "watch", // Or the name of your watch task
+        "program": "${workspaceFolder}/DotNetKoans/bin/Debug/net8.0/DotNetKoans.dll", // Adjust path as needed
+        "cwd": "${workspaceFolder}", // Adjust path as needed
+        "stopAtEntry": false,
+        "env": {
+            "DOTNET_ENABLE_HOT_RELOAD": "true"
+        },
+        "console": "integratedTerminal"
+        },
+        {
+            "name": "C#: <project-name> Debug",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/DotNetKoans.csproj"
+        },
+        {
             "name": ".NET Launch (console)",
             "type": "coreclr",
             "request": "launch",

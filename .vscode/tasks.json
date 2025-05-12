@@ -15,6 +15,13 @@
                 "_id": "build",
                 "isDefault": false
             }
+        },
+        {
+            "type": "dotnet",
+            "task": "watch DotNetKoans",
+            "file": "/Users/matt/code/dotnet/DotNetKoans/DotNetKoans.csproj",
+            "problemMatcher": [],
+            "label": "dotnet: watch DotNetKoans"
         }
     ]
 }
